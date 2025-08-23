@@ -2939,7 +2939,31 @@ html.no-csstransitions .home-content__main {
     white-space: nowrap;
 }
 
+.stats__count2 {
+    font-family: "librebaskerville-bold", serif;
+    font-size: 7.2rem;
+    line-height: 1;
+    color: #0D0A0B;
+    padding-bottom: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 .stats__count::after {
+    content: "";
+    display: block;
+    height: 1px;
+    width: 100px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -50px;
+}
+
+.stats__count2::after {
     content: "";
     display: block;
     height: 1px;
@@ -2996,6 +3020,9 @@ html.no-csstransitions .home-content__main {
     .stats__count {
         font-size: 5.8rem;
     }
+    .stats__count2 {
+        font-size: 5.8rem;
+    }
     .stats h4 {
         font-size: 1.6rem;
     }
@@ -3005,6 +3032,9 @@ html.no-csstransitions .home-content__main {
     .stats__count {
         font-size: 5rem;
     }
+    .stats__count2 {
+        font-size: 5rem;
+    }
     .stats h4 {
         font-size: 1.4rem;
     }
@@ -3012,6 +3042,9 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 800px) {
     .stats__count {
+        font-size: 7.2rem;
+    }
+    .stats__count2 {
         font-size: 7.2rem;
     }
     .stats h4 {
