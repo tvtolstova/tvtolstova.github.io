@@ -221,7 +221,7 @@ em, i {
 }
 
 strong, b {
-    font-family: "librebaskerville-bold", serif;
+    font-family: "alegreyasanssc-bold", serif;
 }
 
 small {
@@ -273,7 +273,7 @@ blockquote cite a, blockquote cite a:visited {
 }
 
 abbr {
-    font-family: "librebaskerville-bold", serif;
+    font-family: "alegreyasanssc-bold", serif;
     font-variant: small-caps;
     text-transform: lowercase;
     letter-spacing: .05rem;
@@ -1267,7 +1267,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .section-intro h1 {
-    font-family: "librebaskerville-bold", serif;
+    font-family: "alegreyasanssc-bold", serif;
     font-size: 4.8rem;
     line-height: 1.375;
     margin-top: 0;
@@ -1797,7 +1797,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content h1 {
-    font-family: "librebaskerville-bold", serif;
+    font-family: "alegreyasanssc-bold", serif;
     color: #FFFFFF;
     font-size: 6rem;
     line-height: 1.35;
@@ -2642,7 +2642,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .testimonials-header h1 {
-    font-family: "librebaskerville-bold", serif;
+    font-family: "alegreyasanssc-bold", serif;
     font-size: 4.2rem;
     margin-top: 0;
     color: #FFFFFF;
@@ -2928,7 +2928,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .stats__count {
-    font-family: "librebaskerville-bold", serif;
+    font-family: "alegreyasanssc-bold", serif;
     font-size: 7.2rem;
     line-height: 1;
     color: #0D0A0B;
@@ -2940,7 +2940,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .stats__count2 {
-    font-family: "librebaskerville-bold", serif;
+    font-family: "alegreyasanssc-bold", serif;
     font-size: 7.2rem;
     line-height: 1;
     color: #0D0A0B;
@@ -3643,7 +3643,7 @@ article.blog-single .blog-content {
 .page-header__title {
     color: #FFFFFF;
     position: relative;
-    font-family: "librebaskerville-bold", serif;
+    font-family: "alegreyasanssc-bold", serif;
     font-size: 6.6rem;
     line-height: 1.227;
     margin-top: 0;
